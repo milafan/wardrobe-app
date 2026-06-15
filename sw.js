@@ -1,11 +1,12 @@
-const CACHE_NAME = 'wardrobe-v1'
+const CACHE_NAME = 'wardrobe-v2'
+const BASE = '/wardrobe-app'
 const STATIC_ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/icons/icon-192.png',
-  '/icons/icon-512.png',
-  '/icons/apple-touch-icon.png'
+  `${BASE}/`,
+  `${BASE}/index.html`,
+  `${BASE}/manifest.json`,
+  `${BASE}/icons/icon-192.png`,
+  `${BASE}/icons/icon-512.png`,
+  `${BASE}/icons/apple-touch-icon.png`
 ]
 
 // 安装：缓存静态资源
